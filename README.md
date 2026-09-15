@@ -1,8 +1,8 @@
-# how-to-skip-dragging-an-item-from-one-group-to-another-in-.net-maui-listview.
+# How to skip dragging an item from one group to another in .NET MAUI ListView(SfListView)?
 
-The demo explains about how to skip dragging an item from one group to another in .NET MAUI ListView(SfListView)
+The demo explains about how to skip dragging an item from one group to another in .NET MAUI ListView(SfListView).
 
-## XAML
+### XAML
 
  <syncfusion:SfListView x:Name="listView" AllowGroupExpandCollapse="True"
                            ItemSize="60"
@@ -38,7 +38,7 @@ The demo explains about how to skip dragging an item from one group to another i
             </syncfusion:SfListView.ItemTemplate>
         </syncfusion:SfListView>
 
-## C#
+### C#
 
     public class Behavior : Behavior<SfListView>
     {
